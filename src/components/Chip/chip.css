@@ -1,0 +1,46 @@
+.chip-container{
+    width: 242px;
+    height: 40px;
+    background: #14172B;
+    border-radius: 17px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chip-text{
+    
+font-family: 'Tomorrow';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 31px;
+/* identical to box height, or 194% */
+
+text-align: center;
+
+/* Secondary/Blue 000 */
+
+color: #ECF0FF;
+
+opacity: 0.9;
+padding-right: 30px;
+}
+
+
+.percent-text{
+    font-family: 'Tomorrow';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 31px;
+/* identical to box height, or 258% */
+
+text-transform: uppercase;
+
+color: #00FFA3;
+
+opacity: 0.9;
+
+}

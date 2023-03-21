@@ -1,0 +1,12 @@
+.circle-container {
+    box-sizing: border-box;
+
+    width : 100px;
+    height : 100px;
+    border-radius : 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+    backdrop-filter: blur(50px);
+}

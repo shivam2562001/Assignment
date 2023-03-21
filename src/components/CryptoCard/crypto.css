@@ -1,0 +1,69 @@
+.card-style {
+    width: 290px;
+    height: 350px;
+}
+
+.card-vector {
+    position: relative;
+    width: 290px;
+}
+
+.card-icon{
+    position: absolute;
+    top: 0;
+    left: 33%;
+    z-index: 1;
+}
+
+.card-frame {
+    width: 290px;
+    height: 350px;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header {
+    display: flex;
+    font-style: normal;
+    font-family: 'Tomorrow';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #737BAE;
+
+    opacity: 0.9;
+}
+
+
+.padding {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+
+.chip-icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background: #14172B;
+    border-radius: 29.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-conatiner{
+    height : 400px;
+    position: relative;
+    padding-top:  50px;
+}
